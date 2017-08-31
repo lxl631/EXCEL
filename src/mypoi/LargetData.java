@@ -24,6 +24,7 @@ public class LargetData {
 
     public static void main(String[] args) throws Exception {
         writeFile();
+        System.err.print("test");
     }
 
 
@@ -64,8 +65,6 @@ public class LargetData {
         ReentrantLock lock = new ReentrantLock();
         lock.lock();
         lock.unlock();
-
-
 
 
     }
